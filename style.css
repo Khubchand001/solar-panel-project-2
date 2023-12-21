@@ -1,0 +1,247 @@
+body{
+    
+    background-color: rgb(15, 190, 209);
+    background-image: url('assest/5.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: auto;
+   
+    
+}
+
+*{
+    margin: 0%;
+
+
+}
+
+.container{
+    margin: 23px;
+    min-width: 75vh;
+    overflow-x:hidden ;
+    overflow-y: auto;
+   
+    
+
+}
+
+nav{
+    
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+   padding-inline: 375px;
+
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+   
+}
+
+nav ul a{
+    padding: 0 15px;
+    font-size: large;
+    cursor: pointer;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-decoration: none;
+
+}
+.brand img{
+    width: 36px;
+    padding: 0 12px;
+    height: 36px;
+   
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    width: 44px;
+    padding: 0 8px;
+}
+
+.heading{
+    color: white;
+    font-size: xx-large;
+    margin: 22px 40px ;
+    padding: 0% 30%;
+    justify-content: center;
+    align-items: center;
+}
+.myimage{
+    padding: 10px 10px;
+    border-width: 10px ;
+    
+    
+}
+
+.fbox{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    width: 90%;
+    margin: 23px auto;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url('assest/solar.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.foot{
+    min-height: 5vh;
+    margin-bottom: 12px 12px;
+    background-color: black;
+    color: aqua;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.fboxp{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    min-height: 10;
+    max-height: 320px;
+    width: 200px;
+    
+
+}
+
+.fboxp image{
+   max-width: 320px;
+   border-radius: 12px solid gray;
+}
+        
+.space{
+    padding: 20px;
+}
+
+.content{
+    
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("solar.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+  .conmeter,time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 410px;
+    margin-top: 72px;
+    color: #ddd;
+    background-color: #161717;
+    width: 425px;
+    padding: 10px 275px;
+    box-sizing: border-box;
+    
+
+  }
+
+  .mydash{
+    margin-top: 44px;
+    margin-left: 404px;
+    color: white;
+    text-decoration: underline;
+  }
+
+  body .conmeter{
+    min-height: 35vh;
+    position: relative;
+    border-radius: 12px;
+  }
+
+  .conmeter::before
+  {
+    content: '';
+    position: absolute;
+    background: linear-gradient(45deg,green,red);
+    background-size:100% 100%;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+    filter: blur(30px);
+    animation: glowing 0.5s .ease .infinite;
+   
+  }
+
+  @keyframes.glowing{
+    0%{
+      background-position:0% 50%;
+    }
+    50%{
+      background-position:0% 50%;
+    }
+    100%{
+      background-position:0% 50%;
+    }
+
+  }
+
+  
+  #hours{
+    font-weight: 600px;
+    padding: 0 10px;
+    line-height: 125px;
+    font-size: 8em;
+    background: ;
+    
+
+  }
+  #period{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-left: 347px;
+    margin: top 12px; ;
+    color: chocolate;
+
+
+  }

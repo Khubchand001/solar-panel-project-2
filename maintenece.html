@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DACEBOARD</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .alert {
+          padding: 20px;
+          background-color: #f44336;
+          color: white;
+        }
+        
+        .closebtn {
+          margin-left: 15px;
+          color: white;
+          font-weight: bold;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          float: right;
+          font-size: 44px;
+          line-height: 44px;
+          cursor: pointer;
+          transition: 0.3s;
+        }
+        
+        .closebtn:hover {
+          color: black;
+        }
+
+        .mass{
+            color:white;
+            font-size: xx-large;
+        }
+        h1.mass {
+            margin: 20px 20px;
+            text-decoration: underline;
+        }
+        p{
+            color: solid black;
+            margin:20px ;
+            font-size: large;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li class="brand"><img src="assest/3.jpg" alt="run with sun"></li>
+                <a href="kd.html">Home</a>
+                <a href="">My Dashboard </a>
+                <a href="https://www.loomsolar.com/">Buy product</a>
+                <a href="maintenece.html">Maintainance Reminder</a>
+
+
+
+            </ul>
+        </nav>
+
+        <h1 class="mass" >Alert : </h1>
+
+        <p>Click on the "x" symbol to close the alert message.</p>
+        <div class="alert">
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+          <strong>Alert!</strong> Your Next Maintainance Is Due On 20/10/23.
+        </div>
+        
+        
+</body>
+
+</html>

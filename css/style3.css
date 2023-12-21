@@ -1,0 +1,90 @@
+body
+{ 
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     background-color:
+     background-size: cover;
+     background-image: url("assest/5.jpg");
+     background-position: center;
+
+}
+
+.currection{
+    display: flexbox;
+    margin: 12px auto;
+    padding: 100px 500px;
+    border-radius: 12px;
+    
+
+}
+ .sign-up-form
+
+{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    border-radius: 15px;
+    
+
+}
+.sign-up-form  
+{
+    color:#fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    background-color:rgba(14, 218, 228, 0.991);
+    border-radius: 12px solid white;
+}
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 10px 0;
+    width: 100%;
+    border:1px solid #999;
+    outline:none;
+}
+button
+{
+    color:#fff;
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+.signup-btn
+{
+    background-color: #1c8adb;
+    
+}
+.signup-btn a{
+    color: white;
+}
+.twitter-btn
+{
+    background-color: #21afde;
+}
+a
+{
+    text-decoration: ;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+ .or
+ {
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+    
+ }
